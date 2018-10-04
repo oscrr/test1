@@ -1,0 +1,94 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	display:flex;justify-content:center;align-items:center;height: 100vh;
+	font-family: "Arial MT";
+}
+
+.background {
+
+	vertical-align: middle;
+	margin-right: auto;
+	margin-left: auto;	
+	width:1010px;
+	height:503px;
+	background-color: #ffffff;
+	border: 1px solid #d7d7d7;
+
+}
+
+.phones {
+	margin-top: 64px;
+	margin-left: 48px;
+	vertical-align: middle;
+	float: left;
+	width: 376px;
+	height: 375px;
+	display: inline-block;
+}
+
+.description {
+	margin-top: 94px;
+	margin-left: 99px;
+	display: inline-block;
+	width: 394px;
+	height: 328px;	
+
+}
+
+.text-main {
+	/* Style for "Накладные" */
+width: 393px;
+height: 55px;
+color: #2f2f2f;
+font-size: 15px;
+font-weight: 400;
+margin: 0px;
+}
+
+.text-price	{
+	/* Style for "Цена" */
+margin-top: 55px;
+width: 35px;
+height: 14px;
+color: #2f2f2f;
+font-size: 15px;
+font-weight: 400;
+}
+
+.text-info {
+	/* Style for "1 999 р." */
+width: 103px;
+height: 28px;
+color: #2f2f2f;
+font-size: 30px;
+font-weight: 400;
+vertical-align: middle;
+display:flex;
+align-items:center;
+}
+
+h1 {
+	/* Style for "Наушники B" */
+width: 178px;
+height: 22px;
+color: #2f2f2f;
+font-size: 23px;
+font-weight: 400;
+font-weight: bold;
+}
+
+button {
+	/* Style for "Прямоугольник" */
+cursor: pointer;
+background-color: #ec744a;
+text-align:center;
+font-size:19px;
+color: #ffffff;
+padding: 16px 39px;
+border: none;
+}
+
+button:active, button:focus { outline: none; }

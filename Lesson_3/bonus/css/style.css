@@ -1,0 +1,43 @@
+.note {
+	font-weight: bold;
+}
+
+
+body{
+	position: relative;
+	background-color: cornsilk;
+}
+
+div {
+	position: fixed;
+	bottom: 15px;
+	right: 15px;
+}
+
+
+
+.bold {
+	font-weight: bold;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.overline {
+	text-decoration: line-through;
+}
+
+h2, h3 {
+	text-align: center;
+	border: 2px solid black;
+	color: mediumblue;
+}
+
+p {
+	color: dimgray;
+}
